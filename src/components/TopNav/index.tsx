@@ -4,13 +4,15 @@ export default function TopNav () {
   return (
     <nav className="max-w-7xl w-full flex justify-between flex-1 py-2">
       <div className="flex items-center gap-4 text-sm">
-        <Image
-          src="https://placehold.co/80x30.png"
-          width={80}
-          height={30}
-          alt="logo"
-          className="mr-10"
-        />
+        <a href="/">
+          <Image
+            src="/full-logo.png"
+            width={187}
+            height={32}
+            alt="logo"
+            className="mr-4"
+          />
+        </a>
         <a href="#personal" className="bg-lime-400 py-1.5 px-4 rounded-full font-medium">Personal</a>
         <a href="#business" className="font-medium">Business</a>
       </div>

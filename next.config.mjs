@@ -1,4 +1,4 @@
-import withPurgeCss from '@fullhuman/postcss-purgecss';
+// import withPurgeCss from '@fullhuman/postcss-purgecss';
 
 const nextConfig = {
   images: {
@@ -6,4 +6,4 @@ const nextConfig = {
   },
 };
 
-export default withPurgeCss(nextConfig);
+export default nextConfig;
