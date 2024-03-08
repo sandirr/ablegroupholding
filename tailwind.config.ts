@@ -3,7 +3,9 @@ import flowbitePlugin from 'flowbite/plugin';
 
 const config: Config = {
   content: [
+    './node_modules/flowbite-react/lib/**/*.js',
     './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './public/**/*.html',
   ],
   theme: {
     extend: {

@@ -1,6 +1,6 @@
 export default function Landing1 () {
   return (
-    <section className="max-w-7xl w-full min-h-screen flex flex-col items-center my-16">
+    <section className="max-w-7xl w-full min-h-screen flex flex-col items-center my-12 md:my-16 p-4">
       <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center max-w-5xl justify-self-center">
         MONEY FOR HERE, THERE
         AND EVERYWHERE
