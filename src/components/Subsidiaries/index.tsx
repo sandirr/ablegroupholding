@@ -9,7 +9,7 @@ export default function Subsidiaries () {
       <div className="text-md sm:text-lg lg:text-xl text-gray-500 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odit.</div>
       <div className="grid grid-cols-1 md:grid-cols-3 mt-16 gap-16">
         {['CRM', 'SAP', 'ERP'].map((item, index) => (
-          <div>
+          <div key={item}>
             <div className="flex justify-center md:justify-start">
               <Image
                 src={`/subsidiaries/cube${ index + 1 }.png`}

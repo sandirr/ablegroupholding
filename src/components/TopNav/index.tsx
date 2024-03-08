@@ -19,13 +19,13 @@ export default function TopNav () {
         </NavbarBrand>
         <a
           href="#personal"
-          className="bg-lime-400 py-1.5 px-4 rounded-full text-sm md:text-md font-medium"
+          className="bg-lime-400 py-1 px-4 rounded-full text-sm md:text-md font-medium block"
         >
           Personal
         </a>
         <a href="#business" className="font-medium">Business</a>
       </div>
-      <NavbarToggle />
+      <NavbarToggle className="md:hidden" />
       <NavbarCollapse className="w-full md:block md:w-auto" id="navbar-default">
         <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
@@ -124,7 +124,7 @@ export default function TopNav () {
           <li>
             <a
               href="#personal"
-              className="bg-lime-400 py-1.5 px-4 rounded-full text-sm md:text-md font-medium block text-center"
+              className="bg-lime-400 py-1 px-4 rounded-full text-sm md:text-md font-medium block text-center"
             >
               Register
             </a>

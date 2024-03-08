@@ -15,7 +15,7 @@ export default function VisionsAndMissions () {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-between mt-16 gap-16">
         {['Quantum porter', 'Veri materni', 'Postra monter', 'Elis parae'].map((item, index) => (
-          <div className="flex-1 bg-white py-16 px-4 border-b-2 border-solid border-yellow-400">
+          <div className="flex-1 bg-white py-16 px-4 border-b-2 border-solid border-yellow-400" key={item}>
             <div className="flex justify-center">
               <Image
                 src={`/vm/goal${ index + 1 }.png`}

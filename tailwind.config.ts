@@ -26,6 +26,6 @@ const config: Config = {
   plugins: [
     flowbitePlugin,
   ],
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
+  // purge: ['./src/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
 };
 export default config;
