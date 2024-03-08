@@ -9,10 +9,9 @@ export default function ContactUs () {
           Alternatively you can fill in the following contact form
         </h2>
 
-        <div className="flex gap-4 mt-16">
+        <div className="flex gap-4 mt-16 max-w-sm text-sm md:text-lg">
           <div className="">
             Sapphire Serenity Street,
-            <br />
             Building 42, Apartment 24
           </div>
           <div className="flex-1 border-solid border-l-2 border-gray-500 pl-4">

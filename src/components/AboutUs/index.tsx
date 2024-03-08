@@ -6,8 +6,8 @@ export default function AboutUs () {
       <div className="md:flex-1">
         <Image
           src="/logo-gradient.png"
-          width={800}
-          height={800}
+          width={160}
+          height={160}
           alt="logo"
           className="mr-10 w-full"
         />
